@@ -5,6 +5,11 @@
  ![Create Team Feature Image 1](./assets/CreateTeamFeature1.png)
  ![Create Team Feature Image 2](./assets/CreateTeamFeature2.png)
 
+## Tải về
+
+Tải về file chạy duy nhất x86_64: <https://github.com/neittien0110/MSTeamsTools/releases/download/1.0.0/CreateTeam.exe>\
+Tải về toàn bộ file chạy và mã nguồn: <https://github.com/neittien0110/MSTeamsTools/releases/tag/1.0.0>
+
 ### Mô tả chức năng ###
 
 1. Tạo team mới, hoặc tái sử dụng Team cũ thông qua **Link Team** cũ.

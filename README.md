@@ -5,7 +5,13 @@
  ![Create Team Feature Image 1](./assets/CreateTeamFeature1.png)
  ![Create Team Feature Image 2](./assets/CreateTeamFeature2.png)
 
-## Tải về
+### Video minh họa
+  
+ [Bổ sung thành viên vào một Team mới, hoặc Teams đã có, và tạo channel riêng cho các thành viên mới <br/>![ảnh](https://i9.ytimg.com/vi/3BxCr1dcM78/mqdefault.jpg?sqp=CNiij7kG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYACwAWKAgwIABABGGUgZShlMA8=&rs=AOn4CLC78COnP9PRD3KEUsITN8YSFKB2DQ)](https://youtu.be/3BxCr1dcM78)
+ \
+ [Bổ sung các thành viên vào MS Teams mới với giao diện dòng lệnh trên Powershell <br/> ![thumnail](https://i9.ytimg.com/vi_webp/2V-EoZUGZcg/mq3.webp?sqp=CISlj7kG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYACygWKAgwIABABGBMgPih_MA8=&rs=AOn4CLBqwS4yj6xC6tCOJw-mU6NCbgl1Ng)](https://youtu.be/2V-EoZUGZcg)
+
+ ### Tải về
 
 Tải về file chạy duy nhất x86_64: <https://github.com/neittien0110/MSTeamsTools/releases/download/1.0.0/CreateTeam.exe>\
 Tải về toàn bộ file chạy và mã nguồn: <https://github.com/neittien0110/MSTeamsTools/releases/tag/1.0.0>
@@ -20,6 +26,7 @@ Tải về toàn bộ file chạy và mã nguồn: <https://github.com/neittien0
 5. Bổ sung chính danh sách thành viên đã chỉ định ở trên vào **Private Channel**. 
 
 > Công cụ này còn cho phép tạo **private channel** và bổ sung chính các thành viên đó cho **private channel**
+
 
 ### Cú pháp ###
 

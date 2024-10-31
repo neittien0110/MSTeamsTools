@@ -21,13 +21,14 @@
 .SYNOPSIS
     Tao MSTeam moi, hoac su dung lai Team cu. Dong thoi bo sung them thanh vien vao Team do.Tao MSTeam moi, hoac su dung lai Team cu. Dong thoi bo sung them thanh vien vao Team do.
 .DESCRIPTION
-    - TeamName  Ten cua Team. Neu co ki tu space, hay dat trong dau "". Neu tham so TeamLink duoc khai bao, TeamName se bi bo qua.
-    - TeamLink  GroupID cua Team cu da ton tai. De xem GroupID cua Team cu, hay vao Team va dung chuc nang <Get link to team> de lay URL co dang https://teams.microsoft.com/l/team/...  
-    - CoOwner   Bo sung them 1 thanh vien sang lap owner. Vi du hoa.lt241234567@sis.hust.edu.vn
-    - UserFile  Duong dan toi file danh sach chua cac thanh vien. Email cua moi thanh vien tren mot dong. Vi du
-                tien.nguyen123@hust.edu.vn
-                hoa.le456@hust.edu.vn
-    Huong dan chi tiet: https://neittien0110.github.io/msteamstools
+    - TeamName    Ten cua Team. Neu co ki tu space, hay dat trong dau "". Neu tham so TeamLink duoc khai bao, TeamName se bi bo qua.
+    - TeamLink    GroupID cua Team cu da ton tai. De xem GroupID cua Team cu, hay vao Team va dung chuc nang <Get link to team> de lay URL co dang https://teams.microsoft.com/l/team/...  
+    - CoOwner     Bo sung them 1 thanh vien sang lap owner. Vi du hoa.lt241234567@sis.hust.edu.vn
+    - UserFile    Duong dan toi file danh sach chua cac thanh vien. Email cua moi thanh vien tren mot dong. Vi du
+                  tien.nguyen123@hust.edu.vn
+                  hoa.le456@hust.edu.vn
+    - ChannelName Ten private channel neu muon tao them va bo sung danh sach thanh vien noi tren vao channel nay. Vi du "Nhom noi bo".
+    Huong dan chi tiet: https://neittien0110.github.io/MSTeamsTools/
 
 .EXAMPLE
    > CreateTeam.exe 
@@ -46,7 +47,7 @@
    > .\CreateTeam.ps1 -ChannelName "Kỹ thuật Máy tính 06 - K67" -UserFile  .\KyThuatMayTinh06-K67.txt
 
 .LINK 
-   GitHub: https://neittien0110.github.io/msteamstools
+   GitHub: https://github.com/neittien0110/msteamstools
 
 #>
 ## Get commandline params

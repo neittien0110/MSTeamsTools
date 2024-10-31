@@ -81,12 +81,11 @@ DESCRIPTION
     - UserFile  Duong dan toi file danh sach chua cac thanh vien. Email cua moi thanh vien tren mot dong. Vi du
                 tien.nguyen123@hust.edu.vn
                 hoa.le456@hust.edu.vn
-    Huong dan chi tiet: https://neittien0110.github.io/msteamstools
+    Huong dan chi tiet: https://neittien0110.github.io/MSTeamsTools/
 
 
 RELATED LINKS
-    GitHub: https://neittien0110.github.io/msteamstools
-
+    GitHub: https://github.com/neittien0110/msteamstools
 
     Get commandline params
 

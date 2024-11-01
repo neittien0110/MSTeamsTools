@@ -27,7 +27,7 @@
     - UserFile    Duong dan toi file danh sach chua cac thanh vien. Email cua moi thanh vien tren mot dong. Vi du
                   tien.nguyen123@hust.edu.vn
                   hoa.le456@hust.edu.vn
-    - ChannelName Ten private channel neu muon tao them va bo sung danh sach thanh vien noi tren vao channel nay. Vi du "Nhom noi bo".
+    - ChannelName Ten private channel neu muon tao them va bo sung danh sach thanh vien noi tren va CoOwner vao channel nay. Vi du "Nhom noi bo".
     Huong dan chi tiet: https://neittien0110.github.io/MSTeamsTools/
 
 .EXAMPLE
@@ -205,15 +205,26 @@ if ($TeamLink -eq "" )  # Nếu có tên Team đầy đủ thì mới tạo team
     if ($TeamName -eq "") {
         $TeamName = Read-Host "Nhap ten Team moi:"    
     }
-    Write-Host "Tao Team "  $TeamName
 
-    #Tạo Team ở dạng Class với Tên như chỉ định
-    $group = New-Team  -template EDU_Class -DisplayName $TeamName
-    # Kiểm tra lai qua trình tạo Team mới
-    if ( $? -eq $False ) {
-        Write-Host " - Khong tao duoc Team moi. Ket thuc"
-        exit -1
-    }    
+
+    # Lây ra các Team đang có    
+    $group = $null
+    #$group = Get-Team | Where-Object { $_.DisplayName -eq $TeamName }
+    
+    if ($null -ne $group) {
+        Write-Host "Team '$TeamName' da co. Tai su dung."
+    } else {
+        Write-Host "Team '$TeamName' chua co. Tao moi."       
+
+        #Tạo Team ở dạng Class với Tên như chỉ định
+        $group = New-Team  -template EDU_Class -DisplayName $TeamName
+        # Kiểm tra lai qua trình tạo Team mới
+        if ( $? -eq $False ) {
+            Write-Host " - Khong tao duoc Team moi. Ket thuc"
+            exit -1
+        }          
+    }
+  
     #Lấy lai GroupID da tao
     $MyTeamGroupID = $group.GroupId
 } else {
@@ -303,6 +314,9 @@ if ( $ChannelName -ne '' ) {
             continue
         }     
     }
+    
+    # Bổ sung thêm đồng sáng lập vào Channel mới
+    Add-TeamChannelUser -GroupId $MyTeamGroupID -DisplayName $MyChannel.DisplayName -User $MyCoOwner -ErrorAction SilentlyContinue
 }
 
 

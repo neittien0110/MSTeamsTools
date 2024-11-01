@@ -9,7 +9,7 @@
   
  [Bổ sung thành viên vào một Team mới, hoặc Teams đã có, và tạo channel riêng cho các thành viên mới <br/>![ảnh](./assets/thumnail_video1.PNG)](https://youtu.be/3BxCr1dcM78)
  \
- [Bổ sung các thành viên vào MS Teams mới với giao diện dòng lệnh trên Powershell <br/> ![thumnail](./thumnail_video2.PNG)](https://youtu.be/2V-EoZUGZcg)
+ [Bổ sung các thành viên vào MS Teams mới với giao diện dòng lệnh trên Powershell <br/> ![thumnail](./assets/thumnail_video2.PNG)](https://youtu.be/2V-EoZUGZcg)
 
  ### Tải về
 
@@ -23,10 +23,9 @@ Tải về toàn bộ file chạy và mã nguồn: <https://github.com/neittien0
 3. Đưa vào **danh sách các thành viên**, hoặc dưới dạng file text, hoặc điền trực tiếp trong cửa sổ InputBox.
 4. Bổ sung thêm tên **Private Channel** nếu muốn, hoặc bỏ qua và kết thúc.
     Trường hợp tên **Private Channel** đã tồn tại thì công cụ sẽ tải sử dụng **Private Channel** cũ.
-5. Bổ sung chính danh sách thành viên đã chỉ định ở trên vào **Private Channel**. 
+5. Bổ sung chính danh sách thành viên đã chỉ định ở trên và Co-Owner vào **Private Channel**.
 
 > Công cụ này còn cho phép tạo **private channel** và bổ sung chính các thành viên đó cho **private channel**
-
 
 ### Cú pháp ###
 
@@ -93,6 +92,7 @@ DESCRIPTION
     - UserFile  Duong dan toi file danh sach chua cac thanh vien. Email cua moi thanh vien tren mot dong. Vi du
                 tien.nguyen123@hust.edu.vn
                 hoa.le456@hust.edu.vn
+    - ChannelName Ten private channel neu muon tao them va bo sung danh sach thanh vien noi tren va CoOwner vao  channel nay. Vi du "Nhom noi bo".                
     Huong dan chi tiet: https://neittien0110.github.io/MSTeamsTools/
 
 

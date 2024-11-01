@@ -7,9 +7,9 @@
 
 ### Video minh họa
   
- [Bổ sung thành viên vào một Team mới, hoặc Teams đã có, và tạo channel riêng cho các thành viên mới <br/>![ảnh](https://i9.ytimg.com/vi/3BxCr1dcM78/mqdefault.jpg?sqp=CNiij7kG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYACwAWKAgwIABABGGUgZShlMA8=&rs=AOn4CLC78COnP9PRD3KEUsITN8YSFKB2DQ)](https://youtu.be/3BxCr1dcM78)
+ [Bổ sung thành viên vào một Team mới, hoặc Teams đã có, và tạo channel riêng cho các thành viên mới <br/>![ảnh](./assets/thumnail_video1.PNG)](https://youtu.be/3BxCr1dcM78)
  \
- [Bổ sung các thành viên vào MS Teams mới với giao diện dòng lệnh trên Powershell <br/> ![thumnail](https://i9.ytimg.com/vi_webp/2V-EoZUGZcg/mq3.webp?sqp=CISlj7kG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYACygWKAgwIABABGBMgPih_MA8=&rs=AOn4CLBqwS4yj6xC6tCOJw-mU6NCbgl1Ng)](https://youtu.be/2V-EoZUGZcg)
+ [Bổ sung các thành viên vào MS Teams mới với giao diện dòng lệnh trên Powershell <br/> ![thumnail](./thumnail_video2.PNG)](https://youtu.be/2V-EoZUGZcg)
 
  ### Tải về
 
